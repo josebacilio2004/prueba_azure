@@ -73,4 +73,7 @@ jobs:
         with:
           app-name: 'sistemainfracc'
           slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          package: .
+
           
