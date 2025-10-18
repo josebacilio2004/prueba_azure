@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'sistema_infraccion.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': os.getenv('DB_NAME', 'pruebaazure13'),
+        'NAME': os.getenv('DB_NAME', 'pruebita_infraccion'),
         'USER': os.getenv('DB_USER', 'adminsa@pruebaazure13'),
         'PASSWORD': os.getenv('DB_PASSWORD', 'admin2004A$'),
         'HOST': os.getenv('DB_HOST', 'pruebaazure13.database.windows.net'),
