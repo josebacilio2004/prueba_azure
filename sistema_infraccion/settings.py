@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gn5&j25cio^+vtm*xvq$-antkmsniq#pu4$uw*u!wa6b7_1+pr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sistemainfracc-f6f3dygzckfscjfu.eastus2-01.azurewebsites.net', 'http://127.0.0.1:8000']
+ALLOWED_HOSTS = ['sistemainfracc-f6f3dygzckfscjfu.eastus2-01.azurewebsites.net', '127.0.0.1']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ProyectoSQL',
-    'camaras'
+    'camaras',
     'dashboard',
     'infracciones',
 ]
